@@ -1,0 +1,100 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-customer-tracker:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/web_customer_tracker_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web-customer-tracker/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-customer-tracker" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="txw2-2.3.1.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="stax-ex-1.8.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="byte-buddy-1.11.12.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="c3p0-0.9.5.5.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="classmate-1.5.1.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="FastInfoset-1.2.15.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="hibernate-c3p0-5.5.7.Final.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="hibernate-commons-annotations-5.1.2.Final.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="hibernate-core-5.5.7.Final.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="istack-commons-runtime-3.0.7.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="jandex-2.2.3.Final.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="javassist-3.27.0-GA.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="javax.activation-api-1.2.0.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="javax.persistence-api-2.2.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="javax.servlet.jsp.jstl-1.2.1.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="javax.servlet.jsp.jstl-api-1.2.1.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="jaxb-api-2.3.1.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="jaxb-runtime-2.3.1.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="jboss-logging-3.4.2.Final.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="jboss-transaction-api_1.2_spec-1.1.1.Final.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="mchange-commons-java-0.2.19.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="mysql-connector-java-8.0.26.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-aop-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-aop-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-aop-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-aspects-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-aspects-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-aspects-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-beans-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-beans-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-beans-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-indexer-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-indexer-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-indexer-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-support-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-support-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-context-support-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-core-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-core-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-core-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-expression-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-expression-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-expression-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-instrument-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-instrument-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-instrument-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jcl-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jcl-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jcl-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jdbc-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jdbc-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jdbc-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jms-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jms-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-jms-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-messaging-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-messaging-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-messaging-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-orm-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-orm-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-orm-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-oxm-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-oxm-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-oxm-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-test-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-test-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-test-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-tx-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-tx-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-tx-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-web-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-web-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-web-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-webflux-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-webflux-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-webflux-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-webmvc-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-webmvc-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-webmvc-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-websocket-5.2.9.RELEASE.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-websocket-5.2.9.RELEASE-javadoc.jar" module-name="web-customer-tracker" />
+          <element id="library" level="module" name="spring-websocket-5.2.9.RELEASE-sources.jar" module-name="web-customer-tracker" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
