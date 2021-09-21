@@ -8,6 +8,9 @@ import com.ajay.springdemo.entity.Customer;
 
 public interface CustomerDAO {
 
-	public List<Customer> getCustomers();
-	
+	List<Customer> getCustomers();
+
+	void saveCustomer(Customer theCustomer);
+
+	Customer getCustomer(int theId);
 }

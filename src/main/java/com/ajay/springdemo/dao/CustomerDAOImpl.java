@@ -19,7 +19,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 	private SessionFactory sessionFactory;
 			
 	@Override
-	@Transactional
 	public List<Customer> getCustomers() {
 		
 		// get the current hibernate session
@@ -37,7 +36,25 @@ public class CustomerDAOImpl implements CustomerDAO {
 		return customers;
 	}
 
-	
+	@Override
+	public void saveCustomer(Customer theCustomer) {
+
+		Session currentSession=sessionFactory.getCurrentSession();
+
+		currentSession.saveOrUpdate(theCustomer);
+
+	}
+
+	@Override
+	public Customer getCustomer(int theId) {
+
+		Session currentSession=sessionFactory.getCurrentSession();
+
+		Customer theCustomer=currentSession.get(Customer.class,theId);
+
+		return theCustomer;
+	}
+
 
 }
 
