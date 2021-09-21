@@ -103,10 +103,20 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
+        <sourceRoots />
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
       <configuration />
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="web-customer-tracker" value="dd1a5bd8-e337-4ce9-91eb-2e656a5b1156" />
+        </datasource-mapping>
+        <naming-strategy-map />
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager">
