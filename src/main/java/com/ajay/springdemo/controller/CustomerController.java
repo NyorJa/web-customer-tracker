@@ -19,8 +19,12 @@ public class CustomerController {
 	@Autowired
 	private CustomerService customerService;
 	
-	@RequestMapping("/list")
-	public String listCustomers(Model theModel) {
+	//@RequestMapping("/list")
+	//public String listCustomers(Model theModel)
+	
+	@RequestMapping("/list_final")
+	public String listCustomers(Model theModelFinal)
+	{
 		
 		// get customers from the dao
 		List<Customer> theCustomers = customerService.getCustomers();
